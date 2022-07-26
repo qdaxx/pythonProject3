@@ -122,7 +122,7 @@ def specdata(mess):
     day_list = list(day.keys())
     hour_list = list(hour.keys())
     minute_list = list(minute.keys())
-    time_now = datetime.datetime.now()
+    time_now = datetime.now()
 
     for k, v in year.items():
         exist = k in mess
